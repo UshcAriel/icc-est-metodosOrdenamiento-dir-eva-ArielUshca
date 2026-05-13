@@ -3,8 +3,8 @@ import models.Car;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       CarController controller= new CarController();
-       Car[] carros = makeCarsList();
+        CarController controller = new CarController();
+        Car[] carros = makeCarsList();
     }
 
     public static Car[] makeCarsList() {
